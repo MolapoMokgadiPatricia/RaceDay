@@ -1,6 +1,5 @@
 # RaceDay Management System
 
-## PROG6212 Programming 2B – Part 1
 
 ## Project Overview
 
