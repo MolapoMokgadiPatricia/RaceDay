@@ -71,8 +71,11 @@ docs/
 .github/workflows/
 * |-- validate-docs.yml – GitHub Actions workflow that checks the required project files.
 
+
 Evidence of GitHub Action
 <img width="955" height="938" alt="image" src="https://github.com/user-attachments/assets/1918dad2-820b-4061-98b8-d6c44cbaf4ae" />
+<img width="1275" height="630" alt="image" src="https://github.com/user-attachments/assets/16c99b63-0500-4337-b3de-583e36b8409e" />
+
 
 ## How to Run the Database
 
