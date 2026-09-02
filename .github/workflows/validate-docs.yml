@@ -16,5 +16,5 @@ jobs:
         run: |
           test -d docs
           test -f docs/RaceDay.png
-          test -f docs/RaceDay API Endpin Plan.md
+          test -f "docs/RaceDay API Endpoint Plan.md"
           test -f docs/RaceDayDatabase.sql
