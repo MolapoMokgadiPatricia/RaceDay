@@ -1,0 +1,20 @@
+name: Validate RaceDay Repository
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate docs folder
+        run: |
+          test -d docs
+          test -f docs/RaceDay.png
+          test -f docs/RaceDay API Endpin Plan.md
+          test -f docs/RaceDayDatabase.sql
